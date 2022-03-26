@@ -1,0 +1,3 @@
+FromBackupFolder=D:\\
+ToBackupFolder=c:\\SKDailyBackup\\Backup\\
+Extensions=JAVA,TXT,CSS,XLSM,HTML,XML,DOC,PPTX,MP3,MP4,AIF
