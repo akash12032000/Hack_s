@@ -33,7 +33,7 @@ class AutoLogin {
 		driver1.findElement(By.xpath("//*[@id=\'identifierNext\']/div/button/span")).click();
 		driver1.findElement(By.name("Passwd")).sendKeys("Asdf@123");
 		driver1.findElement(By.xpath("//*[@id=\'passwordNext\']/div/button/span")).click();
-		
+		driver1.navigate().back();
 		driver1.navigate().to("https://www.youtube.com/@CarryMinati");  
 		driver1.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver1.findElement(By.xpath("//*[@id=\'subscribe-button\']/ytd-subscribe-button-renderer/yt-button-shape/button/yt-touch-feedback-shape/div")).click();
